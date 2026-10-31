@@ -1,0 +1,35 @@
+{
+  "input_file": "employee_hr_dataset.csv",
+  "rows_before_deduplication": 1470,
+  "rows_after_deduplication": 1470,
+  "duplicate_rows_found": 0,
+  "missing_cells_in_original_data": 0,
+  "columns": 31,
+  "attrition_yes_or_one_count": 237,
+  "attrition_rate_pct_if_binary_0_1": 16.12,
+  "selected_cluster_count": 3,
+  "best_silhouette_k_among_tested": 3,
+  "silhouette_results": [
+    {
+      "k": 2,
+      "silhouette_score": 0.2369905030533259
+    },
+    {
+      "k": 3,
+      "silhouette_score": 0.25027930681224875
+    },
+    {
+      "k": 4,
+      "silhouette_score": 0.22687016711379376
+    },
+    {
+      "k": 5,
+      "silhouette_score": 0.21955654345770814
+    },
+    {
+      "k": 6,
+      "silhouette_score": 0.22034603923326934
+    }
+  ],
+  "note": "Cluster labels are arbitrary numeric IDs; interpret from cluster_profiles.csv."
+}
