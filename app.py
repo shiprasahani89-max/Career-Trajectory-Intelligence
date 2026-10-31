@@ -11,7 +11,7 @@ import streamlit as st
 from analysis import run_analysis, engineer_features, promotion_gap_category, build_cluster_features
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_DATA = ROOT / "data" / "employee_hr_dataset.csv"
+DEFAULT_DATA = ROOT / "employee_hr_dataset.csv"
 
 st.set_page_config(
     page_title="Career Trajectory Intelligence",
